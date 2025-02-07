@@ -1,8 +1,9 @@
 AUTHOR = 'EtherPersonified'
 SITENAME = 'Noodling Around'
-SITEURL = ""
+SITEURL = "https://github.com/EtherPersonified.github.io"
 
-PATH = "content"
+PATH = "docs"
+OUTPUT_PATH = "docs"
 
 TIMEZONE = 'Canada/Pacific'
 
@@ -18,18 +19,16 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
     ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
 )
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("BlueSky", "https://bsky.app/profile/etherpersonified.bsky.social"),
+    ("Mastadon", "https://mastodon.social/@etherpersonified"),
 )
 
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True
